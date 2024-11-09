@@ -1,0 +1,87 @@
+/* styles/styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for forms and pages */
+.container {
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #0070f3;
+}
+
+button {
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+button.delete {
+    background-color: #ff4d4f;
+    color: #fff;
+}
+
+button.delete:hover {
+    background-color: #d9363e;
+}
+
+/* Link styling */
+nav a {
+    color: #0070f3;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #005bb5;
+}
